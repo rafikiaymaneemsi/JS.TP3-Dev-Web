@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP3 - Objets et tableaux JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="conteneur">
+        <header>
+            <h1>TP3 - Objets et tableaux</h1>
+            <p class="intro">Sélectionnez une question pour afficher son résultat.</p>
+        </header>
+
+        <section class="exercice">
+            <span class="numero">01</span>
+            <h2>Objets simples</h2>
+            <div class="actions">
+                <button type="button" onclick="exo1q1()">Question 1 - Étudiant</button>
+                <button type="button" onclick="exo1q2()">Question 2 - Méthode parler</button>
+                <button type="button" onclick="exo1q3()">Question 3 - Voiture</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">02</span>
+            <h2>Vérifier et parcourir</h2>
+            <div class="actions">
+                <button type="button" onclick="exo2q1()">Question 1 - Modifier</button>
+                <button type="button" onclick="exo2q2()">Question 2 - Parcourir</button>
+                <button type="button" onclick="exo2q3()">Question 3 - Propriétés propres</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">03</span>
+            <h2>Copier et fusionner</h2>
+            <div class="actions">
+                <button type="button" onclick="exo3q1()">Question 1 - Fusionner</button>
+                <button type="button" onclick="exo3q2()">Question 2 - Copies</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">04</span>
+            <h2>Tableaux de base</h2>
+            <div class="actions">
+                <button type="button" onclick="exo4q1()">Afficher les notes</button>
+                <button type="button" onclick="exo4q2()">Modifier le tableau</button>
+                <button type="button" onclick="exo4q3()">Moyennes</button>
+                <button type="button" onclick="exo4q4()">Minimum et maximum</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">05</span>
+            <h2>Tableaux d’objets</h2>
+            <div class="actions">
+                <button type="button" onclick="exo5q1()">Moyenne générale</button>
+                <button type="button" onclick="exo5q2()">Meilleure note</button>
+                <button type="button" onclick="exo5q3()">Mentions</button>
+                <button type="button" onclick="exo5q4()">Mention Bien ou plus</button>
+            </div>
+        </section>
+
+        <section class="exercice">
+            <span class="numero">06</span>
+            <h2>Manipulations avancées</h2>
+            <div class="actions">
+                <button type="button" onclick="exo6q1()">Notes supérieures ou égales à 12</button>
+                <button type="button" onclick="exo6q2()">Prénoms en majuscules</button>
+                <button type="button" onclick="exo6q3()">Tri décroissant</button>
+                <button type="button" onclick="exo6q4()">Étudiant ayant 12</button>
+            </div>
+        </section>
+
+        <section class="resultat-section">
+            <h2>Résultat</h2>
+            <div id="resultat" aria-live="polite">Sélectionnez une question pour afficher le résultat.</div>
+        </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
